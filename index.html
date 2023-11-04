@@ -21,9 +21,9 @@
         </div>
         <div class="nav-right">
           <ul>
-            <li>Home</li>
-            <li>Explore</li>
-            <li>Help</li>
+            <a href="#hero" style="text-decoration: none; color: black;"><li>Home</li></a>
+            <a href="#recipes" style="text-decoration: none; color: black;"><li>Explore</li></a>
+            <a href="#foot" style="text-decoration: none; color: black;"><li>Help</li></a>
             <li></li>
           </ul>
           <img src="./assets/user.svg">
@@ -37,15 +37,15 @@
           </div>
           <div class="nav-right-mobi">
             <ul>
-              <li>Home</li>
-              <li>Explore</li>
-              <li>Help</li>
+                <a href="#hero" style="text-decoration: none; color: black;"><li>Home</li></a>
+              <a href="#recipes" style="text-decoration: none; color: black;"><li>Explore</li></a>
+              <a href="#foot" style="text-decoration: none; color: black;"><li>Help</li></a>
             </ul>
             
           </div>
       </div>
 
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="hero-text">
             <p>Trending now</p>
             <p>Mike’s famous salad<br> with cheese</p>
@@ -71,21 +71,21 @@
                 <span>Filters</span>
                 <p>Rating</p>
                 <div class="rate-below">
-                    <label class="custom">
+                    <label>
                         <input type="radio" name="rating" value="above-4.5"> 4 and Above 
                       </label>
-                      <label class="custom">
+                      <label>
                         <input type="radio" name="rating" value="below-4.0"> Below 4.0
                       </label>
                 </div>
-              </div>
+            </div>
             <div class="recipes" id="recipes">
               <!-- Recipe cards will be dynamically added here -->
             </div>
         </div>
     </div>
     <footer>
-        <div class="footer">
+        <div class="footer" id="foot">
             <div class="footer-left">
                 <img src="./assets/Cookpal.svg">
                 <p>

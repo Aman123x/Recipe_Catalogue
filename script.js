@@ -2,7 +2,7 @@
 const recipes = [
     {
         "name": "Veggie Delight",
-        "imageSrc": "./assets/Veggie_Delight.jpg",
+        "imageSrc": "https://source.unsplash.com/random?veggies",
         "time": "30 min",
         "type": "veg",
         "isLiked": false,
@@ -10,7 +10,7 @@ const recipes = [
     },
     {
         "name": "Chicken Grill",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?chicken",
         "time": "45 min",
         "type": "non-veg",
         "isLiked": false,
@@ -18,16 +18,15 @@ const recipes = [
     },
     {
         "name": "Cheese Pizza",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?pizza",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
         "rating": 4.1
     },
-    // Add the rest of the recipe objects here...
     {
         "name": "Steak",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?steak",
         "time": "60 min",
         "type": "non-veg",
         "isLiked": false,
@@ -35,7 +34,7 @@ const recipes = [
     },
     {
         "name": "Grilled Salmon",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?salmon",
         "time": "50 min",
         "type": "non-veg",
         "isLiked": false,
@@ -43,7 +42,7 @@ const recipes = [
     },
     {
         "name": "Tomato Pasta",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?pasta",
         "time": "35 min",
         "type": "veg",
         "isLiked": false,
@@ -51,7 +50,7 @@ const recipes = [
     },
     {
         "name": "Vegan Salad",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?salad",
         "time": "20 min",
         "type": "veg",
         "isLiked": false,
@@ -59,7 +58,7 @@ const recipes = [
     },
     {
         "name": "Fried Chicken",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?friedChicken",
         "time": "55 min",
         "type": "non-veg",
         "isLiked": false,
@@ -67,7 +66,7 @@ const recipes = [
     },
     {
         "name": "Mushroom Risotto",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?risotto",
         "time": "45 min",
         "type": "veg",
         "isLiked": false,
@@ -75,7 +74,7 @@ const recipes = [
     },
     {
         "name": "Burger",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?burger",
         "time": "30 min",
         "type": "non-veg",
         "isLiked": false,
@@ -83,7 +82,7 @@ const recipes = [
     },
     {
         "name": "Paneer Tikka",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?paneerTikka",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
@@ -91,7 +90,7 @@ const recipes = [
     },
     {
         "name": "BBQ Ribs",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?ribs",
         "time": "70 min",
         "type": "non-veg",
         "isLiked": false,
@@ -99,7 +98,7 @@ const recipes = [
     },
     {
         "name": "Caesar Salad",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?caesarSalad",
         "time": "25 min",
         "type": "veg",
         "isLiked": false,
@@ -107,7 +106,7 @@ const recipes = [
     },
     {
         "name": "Fish Tacos",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?fishTacos",
         "time": "35 min",
         "type": "non-veg",
         "isLiked": false,
@@ -115,7 +114,7 @@ const recipes = [
     },
     {
         "name": "Chocolate Cake",
-        "imageSrc": "./assets/Chicken_Grill.jpg",
+        "imageSrc": "https://source.unsplash.com/random?chocolateCake",
         "time": "90 min",
         "type": "veg",
         "isLiked": false,
@@ -147,7 +146,7 @@ const recipes = [
                 <div class="time">
                     <p>${recipe.time}</p>
                     
-                    <div>
+                    <div class="p-like">
                         <button class="like-button ${recipe.isLiked ? 'liked' : ''}" data-recipe-index="${recipe.index}">
                         ${recipe.isLiked ? '<img src="./assets/like.svg">' : '<img src="./assets/Un-like.svg">'}
                         </button>
