@@ -2,15 +2,15 @@
 const recipes = [
     {
         "name": "Veggie Delight",
-        "imageSrc": "https://source.unsplash.com/random?veggies",
+        "imageSrc": "./assets/Veggie_Delight.jpg",
         "time": "30 min",
         "type": "veg",
         "isLiked": false,
-        "rating": 3.7
+        "rating": 4.7
     },
     {
         "name": "Chicken Grill",
-        "imageSrc": "https://source.unsplash.com/random?chicken",
+        "imageSrc": "./assets/Chicken_Grill.jpg",
         "time": "45 min",
         "type": "non-veg",
         "isLiked": false,
@@ -18,7 +18,7 @@ const recipes = [
     },
     {
         "name": "Cheese Pizza",
-        "imageSrc": "https://source.unsplash.com/random?pizza",
+        "imageSrc": "./assets/Cheese-Pizza.jpg",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
@@ -26,15 +26,15 @@ const recipes = [
     },
     {
         "name": "Steak",
-        "imageSrc": "https://source.unsplash.com/random?steak",
+        "imageSrc": "./assets/steak.jpg",
         "time": "60 min",
         "type": "non-veg",
         "isLiked": false,
-        "rating": 4.7
+        "rating": 3.7
     },
     {
         "name": "Grilled Salmon",
-        "imageSrc": "https://source.unsplash.com/random?salmon",
+        "imageSrc": "./assets/grilled-salmon.jpg",
         "time": "50 min",
         "type": "non-veg",
         "isLiked": false,
@@ -42,7 +42,7 @@ const recipes = [
     },
     {
         "name": "Tomato Pasta",
-        "imageSrc": "https://source.unsplash.com/random?pasta",
+        "imageSrc": "./assets/Pasta.jpg",
         "time": "35 min",
         "type": "veg",
         "isLiked": false,
@@ -50,7 +50,7 @@ const recipes = [
     },
     {
         "name": "Vegan Salad",
-        "imageSrc": "https://source.unsplash.com/random?salad",
+        "imageSrc": "./assets/vegan-salad.jpg",
         "time": "20 min",
         "type": "veg",
         "isLiked": false,
@@ -58,7 +58,7 @@ const recipes = [
     },
     {
         "name": "Fried Chicken",
-        "imageSrc": "https://source.unsplash.com/random?friedChicken",
+        "imageSrc": "./assets/Fried_Chicken.png",
         "time": "55 min",
         "type": "non-veg",
         "isLiked": false,
@@ -66,7 +66,7 @@ const recipes = [
     },
     {
         "name": "Mushroom Risotto",
-        "imageSrc": "https://source.unsplash.com/random?risotto",
+        "imageSrc": "./assets/mushroom-risotto.jpg",
         "time": "45 min",
         "type": "veg",
         "isLiked": false,
@@ -74,7 +74,7 @@ const recipes = [
     },
     {
         "name": "Burger",
-        "imageSrc": "https://source.unsplash.com/random?burger",
+        "imageSrc": "./assets/Chicken-Burgers.jpg",
         "time": "30 min",
         "type": "non-veg",
         "isLiked": false,
@@ -82,7 +82,7 @@ const recipes = [
     },
     {
         "name": "Paneer Tikka",
-        "imageSrc": "https://source.unsplash.com/random?paneerTikka",
+        "imageSrc": "./assets/paneer_tikka.jpg",
         "time": "40 min",
         "type": "veg",
         "isLiked": false,
@@ -90,7 +90,7 @@ const recipes = [
     },
     {
         "name": "BBQ Ribs",
-        "imageSrc": "https://source.unsplash.com/random?ribs",
+        "imageSrc": "./assets/BBQ_Ribs.jpg",
         "time": "70 min",
         "type": "non-veg",
         "isLiked": false,
@@ -98,7 +98,7 @@ const recipes = [
     },
     {
         "name": "Caesar Salad",
-        "imageSrc": "https://source.unsplash.com/random?caesarSalad",
+        "imageSrc": "./assets/caesar-salad.webp",
         "time": "25 min",
         "type": "veg",
         "isLiked": false,
@@ -106,7 +106,7 @@ const recipes = [
     },
     {
         "name": "Fish Tacos",
-        "imageSrc": "https://source.unsplash.com/random?fishTacos",
+        "imageSrc": "./assets/fish-tacos.jpg",
         "time": "35 min",
         "type": "non-veg",
         "isLiked": false,
@@ -114,7 +114,7 @@ const recipes = [
     },
     {
         "name": "Chocolate Cake",
-        "imageSrc": "https://source.unsplash.com/random?chocolateCake",
+        "imageSrc": "./assets/Cake.jpeg",
         "time": "90 min",
         "type": "veg",
         "isLiked": false,
